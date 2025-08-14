@@ -1,0 +1,529 @@
+* {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: black;
+}
+
+html {
+    width: 100%;
+    scroll-behavior: smooth;
+    background-color: black;
+}
+
+
+body {
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+}
+
+.Home {
+    flex-direction: column;
+    position: relative;
+    height: 150vh;
+}
+
+.header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+    color: rgb(0, 0, 0);
+}
+
+.navbar {
+    margin-left: 60px;
+}
+
+.navbar,
+ul,
+#nav {
+    border: 2px solid transparent;
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
+#nav {
+    color: rgb(255, 74, 74);
+    font-family: "Oswald", sans-serif;
+    font-size: 27px;
+}
+
+#nav:hover {
+    border: 1px solid cyan;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.nav {
+    text-decoration: none;
+    color: rgb(255, 74, 74);
+
+}
+
+.logo {
+    font-style: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: rgb(255, 74, 74);
+}
+
+.img .myimg {
+    height: 550px;
+    width: 450px;
+    border-radius: 10%;
+    border: 5px solid cyan;
+    right: 0px;
+    /*  margin-bottom: 200px; */
+
+}
+
+
+.myimg2 {
+    height: 550px;
+    width: 450px;
+    border-radius: 10%;
+    border: 5px solid cyan;
+}
+
+
+.detail {
+    margin-top: 20px;
+    color: cyan;
+}
+
+.section1 {
+    /*  margin-top: 20px; */
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: black;
+}
+
+#media {
+    color: rgb(255, 74, 74);
+    font-size: 30px;
+    margin-left: 10px;
+    background-color: transparent
+}
+
+#media>.fa-brands:hover {
+    color: cyan;
+    font-size: 40px;
+}
+
+
+.aboutin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+    background-color: black;
+    color: rgb(255, 74, 74);
+    left: 0;
+    margin: 0px 10px;
+}
+
+
+.About {
+    position: relative;
+    color: cyan;
+    height: 120vh;
+    width: 100%;
+}
+
+h3 {
+    color: cyan;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+}
+
+#btn {
+    margin-top: 10px;
+    border: 5px solid cyan;
+    border-radius: 10px;
+    background-color: cyan;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: large;
+    font-family: "Oswald", sans-serif;
+    margin-left: 10px;
+}
+
+#btn:hover {
+    background-color: rgb(255, 74, 74);
+    border: 5px solid rgb(254, 255, 255);
+}
+
+
+.p {
+    font-family: "Abel", sans-serif;
+    font-size: 20px;
+    color: cyan;
+    margin-left: 10px;
+}
+
+.pi {
+    font-family: "Abel", sans-serif;
+    font-size: 20px;
+    color: cyan;
+
+}
+
+.status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-right: 100px;
+
+}
+
+.Skillstable {
+    background-color: aliceblue;
+    height: 600px;
+    width: 600px;
+    border: 5px solid cyan;
+    border-radius: 10px;
+}
+
+.Skills {
+    position: relative;
+    height: 150vh;
+}
+
+#skillsdata {
+    font-size: 50px;
+}
+
+#idss {
+    color: cyan;
+    position: relative;
+    flex-direction: row;
+    margin-left: 100px;
+    list-style: none;
+}
+
+.progress {
+    /* left:0; */
+    color: aqua;
+    background-color: aqua;
+    width: 700px;
+}
+
+.project {
+    position: relative;
+    height: 150vh;
+}
+
+/* project */
+.projectss {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.calulator {
+    border: 5px solid cyan;
+    border-radius: 10px;
+    height: 300px;
+    float: right;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    width: 100%;
+    position: relative;
+    height: 100dvh;
+}
+
+.con {
+    margin-top: 100px;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.footer {
+    background-color: cyan;
+}
+
+.navbar .navitem {
+
+    position: absolute;
+    display: none;
+    width: 40px;
+    top: -10px;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.btns {
+    border: 5px solid cyan;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background-color: cyan;
+    height: auto;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+
+
+.btns:hover {
+    background-color: rgb(255, 74, 74);
+    border: 5px solid rgb(255, 74, 74);
+}
+
+#cal {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.a {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.account {
+    display: flex;
+}
+
+#fa {
+    font-size: 30px;
+    margin-right: 20px;
+    color: aliceblue;
+}
+
+.info {
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width:768px) {
+
+
+
+    .navbar ul {
+        padding: 0px;
+    }
+
+    .navlist ul {
+        display: none;
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        right: -30px;
+        position: absolute;
+        gap: 15px;
+        top: 20px;
+        text-align: center;
+        background-color: black;
+    }
+
+    ul {
+        border: 2px solid cyan;
+    }
+
+    /* .navlist ul li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    } */
+
+    .navlist ul.mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .navbar .navitem {
+        display: flex;
+        font-size: large;
+    }
+
+    #Home {
+        height: 150vh;
+    }
+
+    .section1 {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+
+   .img .myimg {
+        height: 50%;
+        width: 300px;
+        border-radius: 10%;
+        border: 5px solid cyan;
+        margin-top: 10px;
+    }
+
+    .img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .p {
+        font-size: 15px;
+    }
+
+    .pi {
+        font-size: 15px;
+    }
+
+    .myimg2 {
+        height: 100%;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+
+    .contact h3 .con {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .project {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        height: 100%;
+    }
+
+
+
+    .projectss {
+        flex-direction: column;
+
+    }
+
+    .calulator {
+        flex-direction: column;
+    }
+
+
+    .con h1 p a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .progress {
+        /* left:0; */
+        color: aqua;
+        background-color: aqua;
+        width: 150px;
+        margin-left: 20px;
+    }
+
+    .aboutin {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .About {
+        height: 150vh;
+    }
+
+    .Skills {
+        height: 150vh;
+    }
+
+    .project {
+        height: auto;
+    }
+
+    .contact {
+        height: 90vh;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .h3 {
+        display: none;
+    }
+
+    .header {
+        padding: 20px
+    }
+
+    #btn {
+        font-size: smaller;
+    }
+
+    .nav {
+        font-size: large;
+    }
+
+    .detail {
+        margin-top: 0px;
+    }
+
+    p{
+        margin: 0px:
+    }
+
+     #cal {
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        width: 200px;
+    }
+
+    .calulator {
+        border: 5px solid cyan;
+        border-radius: 10px;
+        height: auto;
+        width: auto;
+        float: right;
+        margin: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
